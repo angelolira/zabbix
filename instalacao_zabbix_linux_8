@@ -4,10 +4,9 @@ yum install -y zabbix-agent
 
 chkconfig zabbix-agent on
 
-
+wget https://github.com/angelolira/zabbix/blob/main/archive.tar.gz
 
 tar zxf archive.tar.gz -C /tmp
-
 
 cp -v /tmp/Zabbix-master*/zabbix_agentd.conf /etc/zabbix/
 
